@@ -18,8 +18,6 @@ const cars = [
 
  const templates = cars.map(car => createCard(car));
 
- console.log(templates);
-
  const html = templates.join(' ');
 
  document.querySelector('.list').innerHTML = html;
